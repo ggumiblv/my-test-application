@@ -1,4 +1,3 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client'; // Изменено
 import { Provider } from 'react-redux';
 import { store } from './store/store';
@@ -9,9 +8,8 @@ const rootElement = document.getElementById('root') as HTMLElement;
 
 // Создать корневой рендер
 const root = ReactDOM.createRoot(rootElement);
-
 root.render(
   <Provider store={store}>
-    <App />
+      <App />
   </Provider>
 );

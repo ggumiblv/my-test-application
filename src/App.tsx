@@ -1,10 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Products from './pages/Products/Products';
-import styles from './App.module.css'
 import ProductPage from './pages/ProductPage/ProductPage';
 import CreateProduct from './pages/CreateProduct/CreateProduct';
 import EditProduct from './pages/EditProduct/EditProduct';
+import styles from './App.module.css';
 
 const App: React.FC = () => {
   return (
