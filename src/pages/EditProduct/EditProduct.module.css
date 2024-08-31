@@ -1,0 +1,88 @@
+.editProduct {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .editProduct h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .editProduct .formGroup {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .editProduct label {
+    display: block;
+    margin: 0 0 5px 30px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .editProduct input[type="text"],
+  .editProduct textarea {
+    width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  .editProduct input[type="text"]:focus,
+  .editProduct textarea:focus {
+    border: 1px solid black;
+  }
+  
+  .editProduct textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .editProduct .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .editProduct .saveButton {
+    background-color: #67a469;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid black;
+    width: 220px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    margin: 20px auto 20px;
+  }
+  
+  .editProduct .cancelButton {
+    background-color: #d55c53;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid black;
+    width: 220px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    margin: 20px auto 20px;
+  }
+  
+  .editProduct .saveButton:hover,
+  .editProduct .cancelButton:hover {
+    opacity: 0.7;
+  }
+  

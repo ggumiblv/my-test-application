@@ -1,0 +1,19 @@
+/* App.module.css */
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .main {
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #c4cddb;
+    margin: 0; /* Убираем отступы вокруг контейнера */
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  /* Другие стили */
+  
