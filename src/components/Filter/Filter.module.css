@@ -17,12 +17,12 @@
 
 
 .filter_styles {
-  width: 730px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-sizing: border-box;
   margin: 0 auto;
   padding: 20px;
-  box-sizing: border-box;
-  border-radius: 8px;
-  background-color: #f9f9f9;
+  width: 730px;
 }
 
 .filter_controls {
